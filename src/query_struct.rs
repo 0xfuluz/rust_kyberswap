@@ -85,3 +85,10 @@ pub enum SwapFee {
     Integer(i64),
     String(String),
 }
+
+pub struct Token {
+    pub id: i32,
+    pub symbol: String,
+    pub address: String,
+    pub decimals: i32,
+}
